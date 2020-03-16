@@ -1,11 +1,9 @@
 # BlinkName
-
-/*
  * Project BlinkName
  * Description: Morse code on my first name (TIM)
  * Author: tjcook (214014891)
  * Date: 16/03/2020
- */
+
 
 ## Welcome to your project!
 
