@@ -251,8 +251,8 @@ void loop()
    d40f0:	2101      	movs	r1, #1
    d40f2:	8820      	ldrh	r0, [r4, #0]
    d40f4:	f000 fecf 	bl	d4e96 <digitalWrite>
-	delay(1000);
-   d40f8:	f44f 707a 	mov.w	r0, #1000	; 0x3e8
+	delay(500);
+   d40f8:	f44f 70fa 	mov.w	r0, #500	; 0x1f4
    d40fc:	f000 fabe 	bl	d467c <delay>
 
 	//Switch led1 off for half second
@@ -269,8 +269,8 @@ void loop()
    d4110:	2101      	movs	r1, #1
    d4112:	8820      	ldrh	r0, [r4, #0]
    d4114:	f000 febf 	bl	d4e96 <digitalWrite>
-	delay(1000);
-   d4118:	f44f 707a 	mov.w	r0, #1000	; 0x3e8
+	delay(500);
+   d4118:	f44f 70fa 	mov.w	r0, #500	; 0x1f4
    d411c:	f000 faae 	bl	d467c <delay>
 
 	//Switch led1 off for half second

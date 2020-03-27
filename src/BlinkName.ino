@@ -41,7 +41,7 @@ void loop()
 
   	//Switch led1 on for 1 second (DOT)
 	digitalWrite(led1, HIGH);
-	delay(1000);
+	delay(500);
 
 	//Switch led1 off for half second
 	digitalWrite(led1, LOW);
@@ -49,7 +49,7 @@ void loop()
 
     	//Switch led1 on for 1 second (DOT)
 	digitalWrite(led1, HIGH);
-	delay(1000);
+	delay(500);
 
 	//Switch led1 off for half second
 	digitalWrite(led1, LOW);
